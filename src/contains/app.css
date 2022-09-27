@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Hittedal Script Font';
+    font-style: normal;
+    font-weight: normal;
+    src:local(Hittedal Script Font) ,url('fonts/HittedalscriptDemo-JR09m.otf') format('woff');
+}
+h1{
+    font-family: 'Hittedal Script Font';
+    color: white;
+    
+    font-weight: 200;
+}
