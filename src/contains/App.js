@@ -39,7 +39,7 @@ searchcahnge=(e)=>{
         })
     return (
     <div className="tc">
-        <h1 className="f1">RobotFriend</h1>
+        <h1 className="f1">RobotFriendBenglaze</h1>
         <SearchBox onserachchange={this.searchcahnge}/>
 <Scroll>
     <CardList robots={fillterRobot}/>
