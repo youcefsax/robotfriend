@@ -3,6 +3,7 @@ import CardList from "../component/CardList";
 import SearchBox from "../component/SearchBox";
 import Scroll from "../component/Scroll";
 import { Component } from "react";
+import ErrorBoundry from "../component/ErrorBoundry";
 import "./app.css"
 
 class App extends Component {
@@ -42,7 +43,9 @@ searchcahnge=(e)=>{
         <h1 className="f1">RobotFriendBenglaze</h1>
         <SearchBox onserachchange={this.searchcahnge}/>
 <Scroll>
+    <ErrorBoundry>
     <CardList robots={fillterRobot}/>
+    </ErrorBoundry>
 </Scroll>
 </div>
 )
